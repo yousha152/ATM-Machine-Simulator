@@ -1,6 +1,6 @@
 #  Interactive ATM Machine System (Python & Web UI)
 
-A comprehensive, menu-driven ATM Machine application built using **Python** (Backend Logic) and **HTML5, CSS3, JavaScript** (Modern Web Interface). The system simulates real-world banking operations, including authentication, transaction limits, transfer verification, and administrative monitoring.
+A comprehensive,  ATM Machine application built using **Python** (Backend Logic) and **HTML5, CSS3, JavaScript** (Modern Web Interface). The system simulates real-world banking operations, including authentication, transaction limits, transfer verification, and administrative monitoring.
 
 ---
 
@@ -28,8 +28,8 @@ A comprehensive, menu-driven ATM Machine application built using **Python** (Bac
 ##  Project Structure
 
 
-├── main.py          # Python Console Version (CLI ATM)
-├── index.html       # Web UI Structure
-├── style.css        # Modern Dark-themed Responsive Styling
-├── script.js        # Web ATM Logic & Interactivity
-└── README.md        # Project Documentation
+* **`main.py`** - Python Console Version (CLI ATM)
+* **`index.html`** - Web UI Structure
+* **`style.css`** - Modern Dark-themed Responsive Styling
+* **`script.js`** - Web ATM Logic & Interactivity
+* **`README.md`** - Project Documentation
