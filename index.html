@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM Machine Interface</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="atm-container">
+    <!-- Screen View -->
+    <div class="screen">
+        <h2 id="screen-title">NATIONAL BANK ATM</h2>
+        <p id="screen-desc">Enter your 4-digit PIN to continue:</p>
+        
+        <!-- Input Area -->
+        <input type="password" id="atm-input" maxlength="15" placeholder="Enter PIN">
+        <button id="action-btn" onclick="handleAction()" class="screen-btn hidden">Confirm</button>
+        
+        <div id="output" class="output-msg"></div>
+    </div>
+
+    <!-- ATM Menu Buttons -->
+    <div id="menu-buttons" class="btn-grid hidden">
+        <button onclick="showCheckBalance()">Check Balance</button>
+        <button onclick="setupDeposit()">Deposit Money</button>
+        <button onclick="setupWithdraw()">Withdraw Money</button>
+        <button onclick="setupTransfer()">Transfer Money</button>
+        <button onclick="setupChangePin()">Change PIN</button>
+        <button onclick="miniStatement()">Mini Statement</button>
+        <button onclick="logout()" class="warning">Logout</button>
+        <button onclick="exitATM()" class="danger">Exit</button>
+    </div>
+
+    <!-- Login Controls -->
+    <div id="login-controls" class="btn-grid">
+        <button onclick="verifyPin()" class="primary-btn">Login</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
